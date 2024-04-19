@@ -1,0 +1,116 @@
+
+
+:root {
+    --orange: #fd7e14;
+    --white: #ffffff;
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
+
+/* utility classes //////// */
+
+.primary{
+    color: var(--primary);
+}
+
+.color {
+    color: var(--orange);
+}
+    
+.txt {
+    color: var(--light);
+    font-weight: 600;
+}
+
+.txt1 {
+    color: var(--light);
+    font-weight: 600;
+}
+
+.text-primary{
+    color: var(--primary) !important ;
+}
+/* navbar and hero section////////// */
+
+.bg-main {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(images/bg-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt:hover {
+    color: var(--orange);
+}
+
+.customize-btn {
+    background-color: var(--orange) !important;
+    color: var(--light) !important;
+    font-weight: 600; 
+}
+
+
+/* services cards section////// */
+
+.card-1:hover {
+    background-color: var(--dark);
+    color: var(--light);
+    transition: .8s;
+}
+
+/* reservation section///////// */
+
+.video-img {
+    position: relative;
+    height: 100%;
+    min-height: 500px;
+    background:  url(images/video.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input{
+    background-color: var(--dark);
+}
+
+
+/* footer section///// */
+
+.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: normal;
+    transition: .3s;    
+}
+
+.btn-link:hover {
+    letter-spacing: 1px; 
+}
+
+.btn-social{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: .5s;
+    align-items: center;
+    display: inline-block; 
+}
+
+.btn-social:hover{
+    color: var(--primary);
+}
+
+
+
+
